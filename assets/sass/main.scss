@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Exo+2');
+@import "reset";
+
+$lightgrey: #757780;
+$lightblue: #1B98E0;
+$grey: #5D5D60;
+$black: #000000;
+
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  font-family: 'Exo', sans-serif;
+  height: 100px;
+  width: 100%;
+  // background: $grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    // background: yellow;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    #logo {
+      color: $lightgrey;
+      font-size: 32px;
+      padding-left: 25px;
+    }
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      a {
+        color: $lightgrey;
+        font-size: 16px;
+        padding: 0 25px;
+      }
+    }
+  }
+}
+/////// top area //////
+
+.top-area {
+  height: 850px;
+  width: 100%;
+  background: yellow;
+  .top-img {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
