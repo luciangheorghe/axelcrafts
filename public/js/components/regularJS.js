@@ -5,5 +5,9 @@ webpackJsonp([0],[
 "use strict";
 
 
+$(document).ready(function () {
+      $('.carousel.carousel-slider').carousel({ fullWidth: true });
+});
+
 /***/ })
 ],[0]);

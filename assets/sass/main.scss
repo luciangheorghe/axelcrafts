@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 @import "reset";
 
 $lightgrey: #757780;
@@ -9,57 +10,58 @@ $black: #000000;
 
 * {
   box-sizing: border-box;
+
 }
 
 a {
   text-decoration: none;
 }
-
-header {
+/////// top nav //////////
+.container{
   font-family: 'Exo', sans-serif;
-  height: 100px;
-  width: 100%;
-  // background: $grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .container {
-    // background: yellow;
-    width: 1200px;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    #logo {
+  box-shadow: none;
+  .nav-wrapper{
+    background: white;
+    .brand-logo{
       color: $lightgrey;
-      font-size: 32px;
-      padding-left: 25px;
+      padding-left: 10px;
     }
-    nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      a {
-        color: $lightgrey;
-        font-size: 16px;
-        padding: 0 25px;
+    ul{
+      li{
+        a{
+          color: $lightgrey;
+        }
       }
     }
   }
 }
+
 /////// top area //////
 
-.top-area {
-  height: 850px;
-  width: 100%;
-  background: yellow;
-  .top-img {
-    width: 100%;
-    height: 100%;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-}
+// .top-area {
+//   font-family: 'Alex Brush', cursive;
+//   width: 100%;
+//   background: yellow;
+//   overflow: hidden;
+//   position: relative;
+//   .welcome-text {
+//     font-size: 94px;
+//     padding: 20px;
+//     border-radius: 10px;
+//     color: $lightblue;
+//     text-align: center;
+//     background: rgba(235, 235, 235, .5);
+//     position:absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//   }
+//   .top-img {
+//     img {
+//       display: block;
+//       margin: auto;
+//       width: 100%;
+//
+//     }
+//   }
+// }
